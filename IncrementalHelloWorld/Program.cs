@@ -5,8 +5,9 @@ namespace IncrementalHelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadLine();
+            Console.WriteLine("Type something:");
+            string input = Console.ReadLine();
+            Console.WriteLine(input);
         }
     }
 }
