@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace IncrementalHelloWorld
 {
     class Program
@@ -7,6 +6,7 @@ namespace IncrementalHelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.ReadLine();
         }
     }
 }
